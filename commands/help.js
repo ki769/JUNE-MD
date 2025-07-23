@@ -30,7 +30,7 @@ async function helpCommand(sock, chatId, message) {
         const uptimeFormatted = formatTime(uptimeInSeconds);
     const helpMessage = `
 ┏❐═══════════════════╗
-┃     🌌  𝐉ᴜɴᴇ 𝐌ᴅ  🌌
+┃  💯 ᴜɴʙᴀɴɴᴇᴅ ᴛᴇᴄʜ 💯
 ┗❐═══════════════════╝
  
 ┏❐═══════════════════╗
@@ -176,6 +176,7 @@ async function helpCommand(sock, chatId, message) {
 ┃➤ .repo
 ┃➤ .gitclone
 ┗❐═══════════════════╝`;
+    
 
     try {
         const imagePath = path.join(__dirname, '../assets/menu_image.jpg');
@@ -205,7 +206,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: false,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '@newsletter',
-                        newsletterName: '𝐉ᴜɴᴇ 𝐌ᴅ',
+                        newsletterName: 'ᴠᴘɴ ᴜᴘᴅᴀᴛᴇꜱ',
                         serverMessageId: -1
                     } 
                 }
